@@ -1,0 +1,9 @@
+## Usando template para página html simples
+pages:
+  stage: deploy
+  environment: production
+  script:
+    - echo "Página html já criada"
+  artifacts:
+    paths:
+      - public
